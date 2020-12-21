@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Muli');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+
+body {
+    background-color: #1b3764;
+    text-align: center;
+}
+
+h1 {
+    color: aqua;
+    font-family: "Ubuntu";
+    font-size: 60px;
+}
+
+button {
+    font-family: "Muli";
+    font-size: 12px;
+    width: auto;
+    background-color: #4ab8b8;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    display: block;
+    margin: 40px auto;
+    cursor: pointer;
+    opacity: 1;
+    text-align: center;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+
+.swal-footer {
+  background-color: rgb(245, 248, 250);
+  margin-top: 32px;
+  border-top: 1px solid #E9EEF1;
+  overflow: hidden;
+}
+
+.swal-title {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.swal-text {
+  font-family: 'Josefin Slab'
+}
